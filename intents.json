@@ -1,0 +1,98 @@
+{
+    "intents": [
+        {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey!",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "GasPrices",
+        "patterns": [
+          "What are the current gas prices?",
+          "How much does a gallon of gas cost?",
+          "What is the price of gas today?",
+          "Tell me about the gas prices in my area."
+        ],
+        "responses": [
+          "The current gas prices vary, but you can check your local gas stations for the most accurate information.",
+          "Gas prices change frequently. You can find up-to-date information at your nearest gas station or on their website."
+        ]
+      },
+      {
+        "tag": "PaymentOptions",
+        "patterns": [
+          "What payment options are available for buying gas?",
+          "Can I pay with a credit card at the gas station?",
+          "Are there any discounts for specific payment methods?"
+        ],
+        "responses": [
+          "Most gas stations accept credit and debit cards. You can also check with specific stations for their accepted payment methods.",
+          "Yes, you can generally pay for gas with a credit card. Some gas stations may offer discounts for specific payment methods, so it's worth checking."
+        ]
+      },
+      {
+        "tag": "FuelTypes",
+        "patterns": [
+          "What types of fuel are available for purchase?",
+          "Do you offer diesel fuel?",
+          "Can I buy premium gasoline at your station?"
+        ],
+        "responses": [
+          "We offer regular, mid-grade, and premium gasoline, as well as diesel fuel.",
+          "Yes, we have diesel fuel available for purchase. Additionally, we offer regular, mid-grade, and premium gasoline."
+        ]
+      },
+      {
+        "tag": "PumpingProcess",
+        "patterns": [
+          "How do I pump gas?",
+          "Can you walk me through the process of pumping gas?",
+          "What do I do if the pump is not working?"
+        ],
+        "responses": [
+          "To pump gas, select the fuel grade, lift the nozzle, and follow the instructions on the pump. If you encounter any issues, inform the gas station attendant for assistance.",
+          "Pumping gas is easy! Choose the fuel grade, lift the nozzle, and follow the prompts on the pump. If you need help, don't hesitate to ask a station attendant."
+        ]
+      },
+      {
+        "tag": "GasCylinderInfo",
+        "patterns": [
+          "How much does a gas cylinder cost?",
+          "Tell me about the prices of gas cylinders.",
+          "What sizes of gas cylinders do you offer?",
+          "Can I buy a specific size of gas cylinder?"
+        ],
+        "responses": [
+          "Gas cylinder prices vary based on size and brand. You can check our current prices at the station or on our website.",
+          "We offer gas cylinders in various sizes, and the prices depend on the size and brand. You can find detailed information on our website or by visiting our station."
+        ]
+      }
+    ]
+  }
+  
